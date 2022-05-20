@@ -1,0 +1,29 @@
+{
+  "name": "drinktown",
+  "version": "0.0.1",
+  "description": "projeto para as diciplinas de projeto 1 e projeto 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgsouzav/drinktown.git"
+  },
+  "author": "dgsouzav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgsouzav/drinktown/issues"
+  },
+  "homepage": "https://github.com/dgsouzav/drinktown#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "localtoken": "^0.1.2",
+    "mongoose": "^6.3.4",
+    "simple-mongoose-creator": "^0.0.1"
+  }
+}
