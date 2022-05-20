@@ -18,7 +18,7 @@ app.use(express.static('public'));
 
 // chamando rotas
 app.use('/', (req, res) => {
-    return res.render('login.ejs');
+    return res.render('login');
 });
 
 // exportando aplicação
