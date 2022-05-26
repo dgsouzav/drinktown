@@ -10,7 +10,7 @@ const UserSchema = new mongoose.Schema({
         required: true,
         selected: false,
     },
-    endereco: {
+    address: {
         type: String,
         required: true,
     },
