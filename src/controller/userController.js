@@ -15,7 +15,7 @@ router.post('/register', async (req, res) => {
     }
 });
 
-router.get('/', async (req, res) => {
+router.get('/register', async (req, res) => {
     try { 
         const users = await User.find();
 
