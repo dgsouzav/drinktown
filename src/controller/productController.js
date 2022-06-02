@@ -24,7 +24,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.put('/:productId', async (req, res) => {
+router.put('/', async (req, res) => {
     try {
         const product = await Product.findByIdAndUpdate(req.params.productId, req.body, { new: true });
 
@@ -34,7 +34,7 @@ router.put('/:productId', async (req, res) => {
     }
 });
 
-router.delete('/:productId', async (req, res) => {
+router.delete('/', async (req, res) => {
     try {
         await Product.findByIdAndRemove(req.params.productId);
 
@@ -44,6 +44,4 @@ router.delete('/:productId', async (req, res) => {
     }
 });
 
-// exporta somente o router
-// altera o nome da rota para produto
 module.exports = app => app.use('/product', router);
